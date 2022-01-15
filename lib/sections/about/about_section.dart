@@ -18,7 +18,7 @@ class AboutSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: kDefaultPadding * 2),
-      constraints: const BoxConstraints(maxWidth: 1110),
+      constraints: const BoxConstraints(maxWidth: 1110, minWidth: 200),
       child: Padding(
         padding: const EdgeInsets.only(left: 30.0),
         child: Column(

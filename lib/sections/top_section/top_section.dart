@@ -14,7 +14,8 @@ class TopSection extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      constraints: const BoxConstraints(maxHeight: 900, minHeight: 700),
+      constraints:
+          const BoxConstraints(maxHeight: 900, minHeight: 700, minWidth: 100),
       width: double.infinity,
       decoration: const BoxDecoration(
         image: DecorationImage(
