@@ -14,6 +14,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         body: SingleChildScrollView(
       child: Column(children: const [
+        TopSection(),
         AboutSection(),
         ServiceSection(),
         RecentWorkSection(),
